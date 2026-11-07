@@ -1,0 +1,15 @@
+# Secretos y configuración local
+.env
+
+# Dependencias
+/vendor/
+/node_modules/
+
+# Editor / sistema
+.idea/
+.vscode/*
+!.vscode/launch.json
+.DS_Store
+
+# Datos de contenedores (si usas bind mounts para la BD)
+/docker/mysql-data/
